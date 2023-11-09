@@ -28,8 +28,8 @@ export default {
 };
 </script>
 <template>
-  <h1>HELLO</h1>
+  <h1 class="mx-3 my-3 text-info">BOOLFOLIO</h1>
   <hr />
-  <ProjectList></ProjectList>
+  <ProjectList :projects="projects"></ProjectList>
 </template>
 <style lang="scss"></style>
